@@ -16,7 +16,7 @@ namespace pr08
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormAdministrator());
+            Application.Run(new Form1());
         }
     }
 }

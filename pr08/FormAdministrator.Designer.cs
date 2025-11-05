@@ -69,6 +69,7 @@ namespace pr08
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.dataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.MediumSpringGreen;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(118, 12);
             this.dataGridView1.Name = "dataGridView1";
@@ -158,31 +159,36 @@ namespace pr08
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.Chartreuse;
+            this.button1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button1.Location = new System.Drawing.Point(419, 515);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(96, 34);
             this.button1.TabIndex = 12;
             this.button1.Text = "Добавить";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.Color.Chartreuse;
+            this.button2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button2.Location = new System.Drawing.Point(521, 515);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(143, 34);
             this.button2.TabIndex = 13;
             this.button2.Text = "Редактировать";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // button3
             // 
+            this.button3.BackColor = System.Drawing.Color.Chartreuse;
             this.button3.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button3.Location = new System.Drawing.Point(670, 515);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(102, 34);
             this.button3.TabIndex = 14;
             this.button3.Text = "Удалить";
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.UseVisualStyleBackColor = false;
             // 
             // FormAdministrator
             // 
